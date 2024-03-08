@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML e CSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="container" id="home">
+        <h1 class="titulo">DESAFIO INFINITY</h1>
+        <nav>
+            <ul class="lista">
+                <li>
+                    <a class="item-lista" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="item-lista" href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a class="item-lista" href="#contato">Contato</a>
+                </li>
+                <li>
+                    <a class="item-lista" href="#cadastros">Cadastros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container" id="sobre">
+            <h2 class="subtitulo">SOBRE MIM</h2>
+            <p class="texto-sobre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quod dolorem hic sequi, quo error quibusdam obcaecati ipsum numquam repellat eum. Qui, tempore iusto ipsam repellat nihil ipsum voluptates illum?</p>
+            <img class="imagem-sobre" src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/06/15/programadora-us3i6jqikoxk.jpg" alt="homem programando em um notebook">
+        </section>
+    
+
+        <section class="container" id="contato">
+            <h2>CONTATO</h2>
+            <form class="formulario">
+                <div class="formulario-divisoria">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="formulario-divisoria">
+                    <p>Sexo:</p>
+                    <input type="radio" name="sexo" id="masculino">
+                    <label for="masculino">Masculino</label>
+
+                    <input type="radio" name="sexo" id="feminino">
+                    <label for="feminino">Feminino</label>
+                </div>
+                <div class="formulario-divisoria">
+                    <p>Linguagens:</p>
+                    <input type="checkbox" name="linguagens" id="html">
+                    <label for="html">HTML</label>
+                    <br>
+                    <input type="checkbox" name="linguagens" id="css">
+                    <label for="css">CSS</label>
+                    <br>
+                    <input type="checkbox" name="linguagens" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                    <br>
+                    <input type="checkbox" name="linguagens" id="python">
+                    <label for="python">Python</label>
+                    <br>
+                    <button class="botao">Enviar</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="container" id="cadastros">
+            <h2>DADOS CADASTRADOS</h2>
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th class="tabela-titulo">Nome</th>
+                        <th class="tabela-titulo">Email</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>João</td>
+                        <td>joao@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                        <td>maria@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main> 
+    <footer>
+        <div class="container">
+            <p  class="footer-texto">© 2024 Desafio Infinity. Todos os direitos reservados.</p>
+            <p>Desenvolvido por <span class="footer-nome">Thiago Augusto</span></p>
+        </div>
+    </footer>
+</body>
+</html>
